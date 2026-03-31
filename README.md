@@ -18,3 +18,24 @@ Apenas é necessário alterar a linha de atribuição da string[] linhas passand
     "1 4"
 };
 
+#------------------------------------
+#Exemplo de saída esperada:
+#------------------------------------
+
+--- Rodada 1 ---
+Ladrão foi para o vértice 2.
+Equipe policial 1 foi para o vértice 1.
+Equipe policial 2 foi para o vértice 4.
+
+--- Rodada 2 ---
+Ladrão foi para o vértice 3.
+Equipe policial 1 foi para o vértice 3.
+Equipe policial 2 foi para o vértice 4.
+
+A polícia alcançou o ladrão!
+
+---------------- RELATÓRIO FINAL ------------------
+Status: PRESO
+Total de Rodadas: 2
+Equipes de Polícia Ativas: 2
+---------------------------------------------------

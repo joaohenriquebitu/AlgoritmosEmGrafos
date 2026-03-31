@@ -1,6 +1,6 @@
 # AlgoritmosEmGrafos
 
-Para rodar em um ambiente simplificado como por exemplo um ambiente online, pode se utilizar https://dotnetfiddle.net
+Para rodar em um ambiente simplificado, como por exemplo um ambiente online, pode se utilizar: https://dotnetfiddle.net
 
 Apenas é necessário alterar a linha de atribuição da string[] linhas passando o texto do arquivo diretamente. Como por exemplo:
         string[] linhas = new string[]

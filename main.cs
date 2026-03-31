@@ -35,7 +35,7 @@ public class Grafo
 
 
 
-public class Program
+public class Bellman_Ford
 {
     const int inf = int.MaxValue / 2;
 

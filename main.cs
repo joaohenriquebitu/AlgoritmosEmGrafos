@@ -26,7 +26,7 @@ public class Grafo
         }
     }
 
-    public void AddCaminho(int u, int v, int peso)
+    public void AddAresta(int u, int v, int peso)
     {
         Adj[u].Add(new Aresta(v, peso));
         Rev[v].Add(new Aresta(u, peso));
@@ -83,7 +83,7 @@ public static void Main()
         for (int i = 0; i < qtdArestas; i++)
         {
             string[] dados = linhas[idx++].Split(' ');
-            ilha.AddCaminho(int.Parse(dados[0]), int.Parse(dados[1]), int.Parse(dados[2]));
+            ilha.AddAresta(int.Parse(dados[0]), int.Parse(dados[1]), int.Parse(dados[2]));
         }
 
         int posLadrao = int.Parse(linhas[idx++]);

@@ -18,9 +18,9 @@ Apenas é necessário alterar a linha de atribuição da string[] linhas passand
     "1 4"
 };
 
-------------------------------------
+
 Exemplo de saída esperada:
-------------------------------------
+
 
 --- Rodada 1 ---
 Ladrão foi para o vértice 2.
